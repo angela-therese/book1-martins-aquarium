@@ -1,0 +1,80 @@
+* {
+    border: 
+    padding: 1em;
+    margin: 1em1px dotted lightblue;;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+img {
+    height: 10vh;
+    margin: 2em;
+}
+
+
+main {
+   
+    
+}
+
+.fishcards {
+    display: flex;
+    flex-wrap:wrap;
+    width: 90%;
+    border: 1px dotted lightblue;
+    margin: 2em;
+    
+}
+main.content{
+    width: 70%; 
+}
+.card-info {
+    width: 40%
+}
+.placecards {
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    border: 1px dotted lightblue;
+    
+    
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align:center;
+}
+
+
+header {
+    display: flex;
+    text-align: center;
+    background-color: lightskyblue;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+article {
+    margin-bottom: 5em;
+}
+
+
+.container {
+    display:flex;
+    justify-content: space-between
+    
+}
+.name {
+    font-weight: bold;
+}
+
+.sidebar {
+    border: 1px dotted lightblue;
+}
+
+footer {
+    text-align: center
+}
