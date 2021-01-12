@@ -2,7 +2,7 @@
     border: 
     padding: 1em;
     margin: 1em1px dotted lightblue;;
-    font-family: Helvetica, Arial, sans-serif
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -12,21 +12,24 @@ img {
 
 
 main {
-   
+    background-color: paleturquoise;
     
 }
 
 .fishcards {
     display: flex;
     flex-wrap:wrap;
-    width: 90%;
     border: 1px dotted lightblue;
-    margin: 2em;
+    
+
     
 }
+
 main.content{
     width: 70%; 
+   
 }
+
 .card-info {
     width: 40%
 }
@@ -35,7 +38,6 @@ main.content{
     flex-wrap:wrap;
     text-align: center;
     border: 1px dotted lightblue;
-    
     
     
 }
@@ -52,19 +54,23 @@ h2{
 header {
     display: flex;
     text-align: center;
-    background-color: lightskyblue;
+    background-color: paleturquoise;
     align-items: center;
     justify-content: center;
     height: 20vh;
+    margin-bottom: 5em;
 }
 article {
     margin-bottom: 5em;
+   
+    margin-block-end: 2em;
+    
 }
 
 
 .container {
     display:flex;
-    justify-content: space-between
+    justify-content: space-between;
     
 }
 .name {
@@ -73,8 +79,25 @@ article {
 
 .sidebar {
     border: 1px dotted lightblue;
+    width: 25%;
+    background-color: white;
+    margin-right: 2em;
+    margin-top: 2em;
+    padding: 1em;
 }
 
 footer {
-    text-align: center
+    text-align: center;
+    font-size: x-small;
+    background-color: paleturquoise;
+    padding: 5px;
+}
+
+section {
+    background-color: white;
+    margin: 2em;
+}
+
+aside {
+    margin-bottom: 2em;
 }
