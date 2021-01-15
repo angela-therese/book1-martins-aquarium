@@ -1,12 +1,12 @@
-console.log('hola')
+// console.log('hola')
 
-import {fishList} from "./fish/fishList.js"
+// import {fishList} from "./fish/fishList.js"
 
-fishList()
+// fishList()
 
-import { locationsList } from './locations/location.js'
+// import { locationsList } from './location.js'
 
-locationList()
+// locationList()
 
 //-----------------------------
 
