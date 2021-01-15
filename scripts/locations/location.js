@@ -5,7 +5,7 @@ console.log('hola')
 export function locationCard(locationObject){
     return `
         
-    <div class="placecards">
+    
         <section>
         
             <img src="https://www.telegraph.co.uk/content/dam/Travel/2017/june/madagascar-miavana.jpg" alt="Place Picture">
@@ -13,7 +13,7 @@ export function locationCard(locationObject){
             <p>${locationObject.region}</p>
        
         </section>
-    </div>
+   
         
         `
        

@@ -26,8 +26,7 @@ let locationData = [
     }
 ]
 console.log(locationData)
-export function locationDataCopy() {
-    return locationData.slice()
+export function allLocations() {
+    return locationData.slice();
 }
-
 //makes this data available to other pages

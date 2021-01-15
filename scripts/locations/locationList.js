@@ -1,28 +1,27 @@
 
 console.log('ciao')
-import { locationDataCopy } from './locationDataProvider.js'; //this imports the spliced copy of the data provider sheet
+import { allLocations } from './locationDataProvider.js'; //this imports the spliced copy of the data provider sheet
 import { locationCard } from './location.js';
+// allLocations()
+// console.log(allLocations())
 
-console.log(locationDataCopy())
 
-console.log('this is locations data', locationDataCopy())
-
-// import { locationCard } from './location.js'; // this imports something I don't know yet
 
 let locationContainer = document.querySelector("#location-list")
 
 export function locationList() {
-    const allLocations = locationDataCopy();
+    
 
-    let locationListHTMLString = ''
-
-    for(let i = 0; i < allLocations.length; i++){
-        locationListHTMLString += locationCard(allLocations[i])
-
+    let locationListHTMLString = '';
+    const everyLocation = allLocations();
+    for(let i = 0; i < everyLocation.length; i++){
+        locationListHTMLString += locationCard(everyLocation[i])
+        // return locationListHTMLString
+        console.log(everyLocation[i])
     }
     console.log(locationListHTMLString);
-    locationContainer.innerHTML = `${fishListHTMLString}`
-
+    locationContainer.innerHTML = `${locationListHTMLString}`
+    
 
 }
 
